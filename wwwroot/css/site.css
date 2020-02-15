@@ -1,0 +1,81 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+input[type=submit] {
+    width: auto;
+}
+
+input, textarea {
+    font-size: 18px;
+    width: 200px;
+}
+
+#theForm {
+    background-color: lightgray;
+}
+ 
+#theForm input[type=submit]{
+    background-color: green;
+    color: white;
+}
+.product-item {
+    border: 1px solid grey;
+    padding: 5px;
+    display: inline-block;
+    width: 400px;
+    background-color:antiquewhite;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.product-item img{
+    max-width:200px;
+    border: 1px solid black;
+    float: right;
+    margin: 5px
+
+}
+
+ul.product-props{
+    font-size:small;
+}
+
+.product-props li{
+    list-style:disc;
+}
+#ToggleForm{
+    cursor:pointer;
+    margin: 3px;
+}
+.PopUpForm{
+    border: 2px inset black;
+    display: inline-block;
+    padding: 5px;
+}
+
+.PopUpForm input{
+    width: 200px;
+    margin:2px;
+}
+
+    .PopUpForm label {
+        width: 150px;
+        display: inline-block;
+        margin: 2px;
+    }
+
+    .PopUpForm input[type="checkbox"], input[type="submit"]{
+        width:auto;
+        
+    }
+
+    menu li{
+        display:inline;
+    }
+    menu li::after{
+        content:" |";
+    }
+    menu li:last-of-type::after{
+        content:"";
+    }
